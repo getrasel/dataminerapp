@@ -811,7 +811,7 @@ header .banner .banner_slider button.slick-prev.slick-arrow::after, header .bann
   width: 40px;
   height: 40px;
   line-height: 40px;
-  color: black;
+  color: #01114c;
   font-size: 20px;
   left: 0;
   top: 0; }
@@ -862,5 +862,11 @@ header .banner .banner_slider .banner_item {
     color: #ffd700; }
     .app_title_section .title_inner h2 span {
       display: block; }
+
+.story_section .section_title {
+  text-align: center; }
+  .story_section .section_title h2 {
+    font-size: 42px;
+    font-weight: 600; }
 
 /*# sourceMappingURL=style.css.map */

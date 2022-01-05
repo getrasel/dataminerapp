@@ -99,7 +99,7 @@ header{
 			    width: 40px;
 			    height: 40px;
 			    line-height: 40px;
-			    color: $black;
+			    color: $font;
 			    font-size: 20px;
 			    left: 0;
 			    top: 0;
@@ -172,6 +172,18 @@ header{
 			span{
 				display: block;
 			}
+		}
+	}
+}
+
+// end section
+
+.story_section{
+	.section_title{
+		text-align: center;
+		h2{
+			font-size: 42px;
+			font-weight: 600;
 		}
 	}
 }
