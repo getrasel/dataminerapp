@@ -1,0 +1,147 @@
+@media only screen and (min-width: 1201px){
+	.container{
+		max-width: 1200px;
+	}
+}
+
+@media only screen and (max-width: 991px){
+	.contact_btn{
+		display: none;
+	}
+	.contact_btn.d_none {
+	    display: inline-block;
+	    position: absolute;
+	    right: 100px;
+	    top: 20px;
+		}
+		.navbar-light .navbar-toggler {
+		    color: #ffffff;
+		    border: none;
+		}
+		.navbar-light .navbar-toggler:focus{
+			outline: none;
+			box-shadow: none;
+		}
+		 .navbar-toggler span{
+		 	color: #ffffff;
+		 	font-size: 35px;
+		 }
+	.collapse.show{
+	    display: block;
+	}
+	.collapse{
+		display: none;
+	    position: absolute;
+	    top: 60px;
+	    z-index: 999;
+	    right: 0;
+	}
+	header .banner_area .header_navbar .main_nav{
+	    z-index: 999;
+	}
+	.main_nav .menu{
+		width: 250px;
+	    background: #233653;
+	    border-radius: 5px;
+	    padding: 20px;
+	    margin-top: 20px;
+	}
+	header .banner_area .header_navbar .main_nav .menu .nav-item {
+	    padding: 8px 5px;
+	}
+	header .banner_area .header_navbar .main_nav .menu .nav-item a::before, header .banner_area .header_navbar .main_nav .menu .nav-item a.active::before{
+		display: none;
+	}
+	#clouds{
+		display: none;
+	}
+	.news_section .col-lg-4 .news_content{
+		margin-bottom: 20px;
+	}
+	header .banner_area .banner .banner_form{
+		margin:0px auto;
+	}
+	.news_section .col-lg-4 .news_content{
+		text-align: center;
+	}
+	section{
+		overflow: hidden;
+	}
+
+	header .banner_area .banner .banner_form .banner_slider .item img{
+		margin: 0px auto;
+	}
+	header .banner_area .banner .banner_form .shape-5{
+		right: 22%;
+	}
+	.feature_section .feature_area .features_main{
+    	justify-content: revert;
+    	flex-direction: column-reverse;
+	}
+	.feature_section .right_featurs .feature_area .features_main{
+		flex-direction: column;
+	}
+	.feature_section .feature_area .features_main .left_features h2, .feature_section .feature_area .features_main .left_features p, .feature_section .right_featurs .feature_area .features_main .left_features h2, .feature_section .right_featurs .feature_area .features_main .left_features p{
+		text-align: center;
+	}
+	.feature_section .feature_area .features_main .right_icons, .feature_section .right_featurs .feature_area .features_main .right_icons{
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 20px;
+	}
+	.feature_section .feature_area {
+	    margin-bottom: 30px;
+	}
+	.feature_form .item img{
+		width: auto;
+		margin: 0px auto;
+	}
+	.video_section .video_area {
+	    padding: 0;
+	}
+}
+
+@media only screen and (max-width: 767px){
+	/*.scrolltop{
+		display: none;
+	}*/
+	.card_section .card_main{
+		margin-bottom: 30px;
+	}
+}
+
+
+@media only screen and (max-width: 480px){
+	header .banner_area .banner .banner_content h2{
+		font-size: 48px;
+	}
+	header .banner_area .header_navbar .main_nav .logo_area {
+	    width: 200px;
+	}
+	.account_section .account_image {
+	    padding-right: 0;
+	    padding-left: 0;
+	}
+	.account_section .account_image .account_btn a{
+		padding: 18px 30px;
+	}
+	.contact_section .contact_describe {
+	    padding-right: 0;
+	}
+	.contact_inner{
+		flex: 1;
+	}
+	.footer_area{
+		margin-top: 30px;
+	}
+
+}
+
+@media only screen and (max-width: 380px){
+	.country {
+	    padding: 60px 10px;
+	}
+	.country .land-container h2 {
+	    font-size: 22px;
+	}
+}

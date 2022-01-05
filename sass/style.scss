@@ -1,0 +1,177 @@
+@import'theme_css/_theme.scss';
+@import'color/_theme_color.scss';
+
+
+header{
+	.navmenu{
+		width: 100%;
+		.navbar{
+			padding: 10px 0px;
+			width: 100%;
+			a.navbar-brand{
+				text-transform: uppercase;
+				font-size: 26px;
+				font-weight: 600;
+				color: $border;
+			}
+			.menu_area{
+				text-align: center;
+				flex: 1;
+				display: flex;
+				.collapse_area{
+					justify-content: center;
+					.navbar-nav{
+						li{
+							padding: 0px 25px;
+							a{
+								padding: 5px 0px;
+								color: $font;
+								transition: $transition;
+								position: relative;
+								overflow: hidden;
+								&::before{
+									position: absolute;
+									content: "";
+									width: 0%;
+									height: 2px;
+									background: $font;
+									bottom: 0px;
+									left: 50%;
+									transform: translate(-50%, 0);
+									opacity: 0;
+									transition: $transition;
+								}
+								&:hover{
+									color: $font;
+									transition: $transition;
+									&::before{
+										width: 100%;
+										opacity: 1;
+										transition: $transition;
+										
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	.banner{
+		.banner_slider{
+			&:hover{
+				button.slick-prev.slick-arrow, button.slick-next.slick-arrow{
+					opacity: 1;
+					transform: scale(1);
+					transition: $transition;
+					transition-delay: 1.5s;
+				}
+				button.slick-next.slick-arrow{
+					right: 20px;
+				}
+				button.slick-prev.slick-arrow{
+					left: 20px;
+				}
+			}
+			.slick-arrow {
+			    background: $white;
+			    width: 40px;
+			    height: 40px;
+			    border-radius: 50px;
+			    box-shadow: $shadow-two;
+				z-index: 100;
+			    transition: $transition;
+			}
+			button.slick-prev.slick-arrow{
+				left: 40px;
+				transform: scale(0.3);
+				opacity: 0;
+			}
+			button.slick-next.slick-arrow{
+				right: 40px;
+				transform: scale(0.3);
+				opacity: 0;
+			}
+			button.slick-prev.slick-arrow::after, button.slick-next.slick-arrow::after{
+				position: absolute;
+			    font-family: 'Font Awesome 5 Pro';
+			    width: 40px;
+			    height: 40px;
+			    line-height: 40px;
+			    color: $black;
+			    font-size: 20px;
+			    left: 0;
+			    top: 0;
+			}
+			button.slick-prev.slick-arrow::after{
+				content: "\f104";
+			}
+			 button.slick-next.slick-arrow::after{
+			 	content: "\f105";
+			 }
+			button.slick-prev.slick-arrow::before, button.slick-next.slick-arrow::before{
+				display: none;
+			}
+			.banner_item{
+				padding: 140px 0px 150px;
+				position: relative;
+				transition: $transition;
+				
+				.slider_img{
+					width: 100%;
+					position: absolute;
+					top: 0;
+					left: 0;
+					height: 100%;
+				}
+				.img_one{
+					background: url('../images/banner_s1.jpg');
+					background-size: cover;
+				}
+				.img_two{
+					background: url('../images/banner_s2.jpg');
+					background-size: cover;
+				}
+				.banner_content{
+					padding-right: 30px;
+					h2{
+						margin-bottom: 20px;
+						font-size: 36px;
+    					font-weight: 600;
+					}
+					p{
+						font-size: 18px;
+					}
+					.button_inner{
+						margin-top: 40px;
+						a.see_more{
+							font-size: 18px;
+							font-weight: 500;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+// end section 
+
+.app_title_section{
+	background: $font;
+	background-size: cover;
+	.title_inner{
+		h2{
+			text-align: center;
+			font-size: 50px;
+			font-weight: 600;
+			line-height: 80px;
+			color: $gold;
+			span{
+				display: block;
+			}
+		}
+	}
+}
