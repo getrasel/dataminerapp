@@ -123,3 +123,8 @@ $(window).scroll(function() {
 }).scroll();
 
 
+
+
+
+
+// parallax 

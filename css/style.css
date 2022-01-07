@@ -863,10 +863,160 @@ header .banner .banner_slider .banner_item {
     .app_title_section .title_inner h2 span {
       display: block; }
 
-.story_section .section_title {
-  text-align: center; }
-  .story_section .section_title h2 {
-    font-size: 42px;
-    font-weight: 600; }
+.story_section {
+  background: #e7e3de; }
+  .story_section .section_title {
+    text-align: center;
+    margin-bottom: 50px; }
+    .story_section .section_title h2 {
+      font-size: 42px;
+      font-weight: 600; }
+  .story_section .story_area .scene1 {
+    background: #e7e3de;
+    color: #28221a; }
+    .story_section .story_area .scene1 h2 {
+      font-size: 32px;
+      font-weight: 600;
+      padding: 40px 0;
+      display: inline-block;
+      line-height: 50px;
+      color: #28221a; }
+  .story_section .story_area .work_time {
+    background: #e7e3de; }
+    .story_section .story_area .work_time h4 {
+      font-size: 28px;
+      font-weight: 600;
+      padding: 40px 0px 40px;
+      margin: 0;
+      color: #28221a; }
+  .story_section .story_area .act_one h3 {
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    display: flex;
+    padding: 50px 30px;
+    margin-bottom: 0px;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center; }
+    .story_section .story_area .act_one h3 .circle {
+      text-align: center;
+      margin-bottom: 20px;
+      margin-right: 20px; }
+    .story_section .story_area .act_one h3 .emp_text {
+      line-height: 35px; }
+  .story_section .story_area .act_one .guy_1 {
+    background: #cfc7c2; }
+    .story_section .story_area .act_one .guy_1 h3 {
+      color: #2c2623; }
+  .story_section .story_area .act_one .guy_2 {
+    background: #4bc9af; }
+    .story_section .story_area .act_one .guy_2 h3 {
+      color: #0a2822; }
+  .story_section .story_area .act_one .guy_11 {
+    background: #bbb1af; }
+    .story_section .story_area .act_one .guy_11 h3 {
+      color: #221c1b; }
+  .story_section .story_area .act_one .guy_12 {
+    background: #a5ffe5; }
+    .story_section .story_area .act_one .guy_12 h3 {
+      color: #030c09; }
+  .story_section .story_area .img_submit {
+    margin: 30px;
+    border-radius: 15px;
+    position: relative;
+    z-index: 5;
+    overflow: hidden;
+    height: 340px; }
+    .story_section .story_area .img_submit.guy_2_top {
+      background: url("../images/story2.png");
+      background-size: 47% 80%;
+      background-attachment: fixed;
+      background-repeat: no-repeat; }
+    .story_section .story_area .img_submit .first_img img {
+      filter: blur(5px); }
+    .story_section .story_area .img_submit img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 15px; }
+    .story_section .story_area .img_submit .multi_img {
+      position: absolute;
+      top: 40px;
+      left: -40px;
+      width: 100%;
+      box-shadow: 0px 1px 10px 0px rgba(45, 19, 106, 0.1); }
+      .story_section .story_area .img_submit .multi_img img {
+        filter: blur(0px); }
+    .story_section .story_area .img_submit.last_img .first_img img {
+      filter: blur(1.5px); }
+    .story_section .story_area .img_submit.last_img .multi_img {
+      left: 40px; }
+    .story_section .story_area .img_submit.last_img .animated {
+      border-radius: 15px;
+      background: linear-gradient(180deg, cornflowerblue, purple 50%, cornflowerblue);
+      background-repeat: no-repeat;
+      background-size: 100% 100%, 100% 200%;
+      background-position: 0 0, 0 100%;
+      background-origin: padding-box, border-box;
+      animation: highlights 1s infinite alternate; }
+      .story_section .story_area .img_submit.last_img .animated img {
+        width: calc(100% - 6px);
+        height: calc(100% - 6px);
+        left: 3px;
+        top: 3px;
+        position: relative; }
+@keyframes highlights {
+  100% {
+    background-position: 0 0, 0 0; } }
+  .story_section .story_area .act_two h3 {
+    font-size: 24px;
+    font-weight: 500;
+    display: flex;
+    padding: 50px 30px;
+    margin-bottom: 0px;
+    text-align: center;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    position: relative;
+    z-index: 10;
+    align-items: center; }
+    .story_section .story_area .act_two h3 .circle {
+      text-align: center;
+      margin-bottom: 20px;
+      margin-right: 20px; }
+    .story_section .story_area .act_two h3 .emp_text {
+      line-height: 35px; }
+  .story_section .story_area .act_two .guy_21 {
+    background: #afa29e; }
+    .story_section .story_area .act_two .guy_21 h3 {
+      color: #2e2724; }
+  .story_section .story_area .act_two .guy_22 {
+    background: #e8ff6d;
+    background: linear-gradient(0deg, #ffed9a 0%, #a5ffe5 100%); }
+    .story_section .story_area .act_two .guy_22 h3 {
+      color: #242800; }
+  .story_section .story_area .act_two .guy_31 {
+    color: #544a47; }
+  .story_section .story_area .act_two .guy_32 {
+    color: #202400; }
+  .story_section .story_area .act_two.final_story {
+    position: relative; }
+    .story_section .story_area .act_two.final_story h3 {
+      height: auto; }
+    .story_section .story_area .act_two.final_story::before, .story_section .story_area .act_two.final_story::after {
+      position: absolute;
+      content: "";
+      width: 50%;
+      height: 100%;
+      top: 0; }
+    .story_section .story_area .act_two.final_story::before {
+      background: #b0a29e;
+      left: 0; }
+    .story_section .story_area .act_two.final_story::after {
+      right: 0;
+      background: #fceda6;
+      background: linear-gradient(0deg, #fceda6 0%, #fdfbcc 100%); }
 
 /*# sourceMappingURL=style.css.map */
