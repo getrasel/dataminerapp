@@ -47,8 +47,8 @@ $(document).ready(function(){
     *************************/
 
 $(window).load(function() {
-    $(".loader").delay(1500).fadeOut("slow");
-    $("#overlayer").delay(1500).fadeOut("slow");
+    $(".preloader").delay(1500).fadeOut("slow");
+    $(".preloader").delay(1500).fadeOut("slow");
 });
 
 
